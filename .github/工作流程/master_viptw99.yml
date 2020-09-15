@@ -1,6 +1,5 @@
 # Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
 # More GitHub Actions for Azure: https://github.com/Azure/actions
-
 name: Build and deploy WAR app to Azure Web App - viptw99
 
 on:
@@ -34,3 +33,5 @@ jobs:
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_acd26c68ec834587a97b46b2d128119d }}
         package: ./published/
+-名稱：管理Azure策略
+  用途：Azure / manage-azure-policy @ v0
